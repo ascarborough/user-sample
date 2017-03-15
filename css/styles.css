@@ -1,6 +1,35 @@
 /* Your Awesome Styling*/
 
+/*Bio & Resume*/
+
+.bio article {
+    display: flex; 
+}
+
+.bio section {
+    margin: 0 10px;
+}
+
+.bio section:nth-child(1) {
+  width: 400px;  
+}
+
+/*Resume Styling */
+
+.bio #resume {
+    display: flex;
+    background: lightcoral;
+}
+
+.bio #resume section {
+    flex: 1 25%; 
+}
+
 /*My Form Styling */
+.contact {
+    background: green;
+}
+
 
 form {
   background: #ccc;
