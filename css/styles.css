@@ -1,6 +1,22 @@
 /* Your Awesome Styling*/
 
+/*My Form Styling */
 
+form {
+  background: #ccc;
+  width: 400px;
+}
+
+label,
+input {
+  display: block;
+  width: auto;
+  margin: 1em; 
+}
+
+input[type="submit"] {
+    border: 0;
+}
 
 
 /* Mobile: 320px = 20em */
